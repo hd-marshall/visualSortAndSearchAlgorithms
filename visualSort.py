@@ -39,6 +39,9 @@ class SortVisualization:
                     
             (self.data[i], self.data[minIndex]) = (self.data[minIndex], self.data[i])
             self.update_plot()
+
+    def mergeSort(self, event):
+        pass
     
     def resetGraph(self, event):
         self.data = self.initial_data.copy()
